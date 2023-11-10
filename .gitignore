@@ -1,0 +1,30 @@
+### Custom
+sentitweet/data/*
+database.bak
+db_backup.sql
+
+###
+
+# Byte-compiled files
+__pycache__
+
+# Packaging directories
+build/
+lib/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebooks/
+
+# Environmental vars
+.env
+.env-bak
+
+.env-remote
+.env-local
+.env-production
+
+#Environments
+.venv
+venv/
+venv.bak/
