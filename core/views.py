@@ -24,3 +24,9 @@ def index(request):
 
     html_template = loader.get_template('index.html')
     return HttpResponse(html_template.render(context, request))
+
+
+def delete_everyone(request):
+    Person.objects.all().delete()    
+    return redirect('index')
+    
