@@ -28,3 +28,4 @@ notebooks/
 .venv
 venv/
 venv.bak/
+.vercel

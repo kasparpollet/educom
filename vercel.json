@@ -1,0 +1,15 @@
+{ 
+    "version": 2, 
+    "builds": [ 
+        { 
+            "src": "educom/wsgi.py", 
+            "use": "@vercel/python"
+        } 
+    ],
+    "routes": [ 
+        { 
+            "src": "/(.*)", 
+            "dest": "educom/wsgi.py" 
+        } 
+    ]
+}
