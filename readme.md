@@ -22,4 +22,10 @@ Voeg onder de pagina een knop “Bereken gezamenlijk jubileum” en als je daaro
 - JS web framework
 - Plain Html/CSS/JS
 
-Gekozen voor een Django project omdat ik deze goed ken en voor mij makkelijk op te zetten is.
+Gekozen voor een Django project omdat ik deze goed ken en ik dit makkelijk kan hosten.
+
+### Info
+- Mijn oplossing is te gebruiken op ```educom.kasparpollet.com```. 
+- Om het zelf te hosten run het command ```make up``` in the root.
+- LET OP: je hebt een .env nodig, vraag mij voor de .env met alle credentials.
+- Code voor opdracht 2 staat voornamelijk in ```educom/utils.py```.
